@@ -1,0 +1,105 @@
+/*EXTERNAL STYLE SHEET FONT FORMATS*/
+		body, html {
+			font-family:Verdana, Geneva, sans-serif;
+			height:100 %;
+			margin:0;
+		}
+
+		p {
+			font-size: 25px;
+			font-family:Helvetica, Geneva, sans-serif;
+			text-align: center;
+			font-style: bold;
+		}
+
+		.hero-image {
+			background-image:linear-gradient(rgba(	102, 83, 58, 0.6), rgba(	102, 83, 58, 0.6)),
+			url("https://wifinowevents.s3.amazonaws.com/uploads/2018/01/Roomba.jpg");
+			height: 50%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+		h1{
+			font-size: 35pt;
+			font-family: "Franklin Gothic", Tahoma, Geneva, sans-serif;
+
+		}
+		h2{ 
+			font-size: 35pt;
+			font-family: Tahoma, Geneva, sans-serif;
+
+		}
+		h2.txttitle{
+			font-size: 35pt;
+			font-family:Verdana, Geneva, sans-serif; 
+			text-align: center;
+		}
+
+		/*LABEL BAR CODE*/
+		header{ background-color:#383634; 
+			padding: 20px 40px; width:100%;
+			box-sizing: border-box;}
+
+
+		/*NAVIGATION BAR CODE*/
+		ul.nav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			width: 100%;
+			background-color: #7A5F3C;
+			position:fixed;
+			z-index: 1000;
+		} 
+		li {
+			color:#655138;
+			float:left;
+		}
+
+		li a{
+			display: block;
+			color: #000;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li.name {
+			text-align: center;
+			font-weight: bold;
+			padding: 14px 16px;
+			color:#EFE9DF;
+		}
+
+		li a:hover {
+			background-color: #7A5F3C;
+		}
+
+		a {
+			display: block;
+			padding: 8px;
+			background-color:#B99D76
+		}
+/*Creates line of images*/
+
+	.col {
+		box-sizing: border-box;
+		float:left;
+		width:25%;
+		padding:10px;
+
+	}
+	.row::after{
+		content:"";
+		clear:both;
+		display: table
+	}
+
+	img {
+
+	height: 190px;
+	vertical-align: middle;
+	}
