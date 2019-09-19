@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset -"utf-8">
+		<title>DJ Roomba Navigation</title>
+	</head>
+
+	<body bgcolor=#DCC7AA>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	
+	<!--INTERNAL STYLESHEET-->
+	<style type="text/css">	
+		h2 {
+			font-style: italic;
+			font-size: 20pt;
+		}
+		h2.sub{
+			text-align: left;
+			font-size: 30pt;
+			font-family:Verdana, Geneva, sans-serif; 
+			display:inline;
+		}
+		.roomba {
+			float: right;
+			padding-top: 55px;
+			padding-right: 140px;
+
+		}
+		img{
+			width: 400px;
+			height: auto;
+			border: 15px;
+			border-color: #EFE9DF;
+			border-radius: 50%;
+		}
+		.form{
+			padding-left: 150px;
+			font-size: 20px;
+			font-family: Tahoma, Geneva, sans-serif;
+			background-color: #6C5038;
+			color: #EFE9DF;
+		}
+	</style>
+	<!--FIXED ELEMENT NAVIGATION BAR-->
+	<ul class ="nav">
+			<li><a href="homepage.html">Homepage</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li class="name">DJ ROOMBA</li>
+	</ul>
+	<br />
+
+	<!--HEADER IMAGE-->
+		<div class="hero-image">
+			<div class="hero-text">
+				<br />
+				<h1 style="color:#f56f42" align=center  >DJ ROOMBA</h1>
+				<h2 style="color: #EFE9DF" align=center>clear the dance floor</h2>
+				<br/>
+			</div>
+		</div>
+
+	<div class="roomba">
+	<img src="https://i.pinimg.com/originals/1d/0a/0f/1d0a0f6963641ac9f250b15a729b1f09.png" alt ="Roomba light show">
+	</div>
+
+	<!--FORM-->
+	<div class="form">
+		<br />
+		<h2 style="color: #EFE9DF" class="sub" > Order Now!</h2>
+	<form method="get" actions ="">
+		<br />
+		<div class='col1' placeholder="write your name">Your Name: </div>
+			<input type="text" id = "name"name="name"><br /> <br />
+		<div class = 'col1'>Name your roomba: </div> 
+				<div class='col2'>  <input type="text" name="name your roomba">
+				<br /><br />
+		<div class = 'col1'>Email: </div> 
+			<div class='col2'>  <input type="text" name="name your roomba">
+				<br /><br />
+		<div class ='col1'>What type of music do you want your roomba to play? </div>
+				<input type="checkbox" name="music" value="rock">Rock
+				<input type="checkbox" name="music" value="pop">Pop
+				<input type="checkbox" name="music" value="country">Country
+				<br /><br/>
+		<div class='col1'> Include lightshow special for $48.50?</div>
+			<input type = "checkbox" name="light" value = "yes">Yes
+			<input type = "checkbox" name="lightshow" value = "no">No
+
+			<br /><br />
+			<div class ='col1'>How many hours would you like to rent for? </div>	
+				<select name ='howMany' id ='howMany'>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+			</select>
+			<br /> <br />
+			<div class='col1'> Join e-list? 
+				<div class='col2' style="display: inline;"><input type = "checkbox" name="join" value = "yes"></div> <br /><br />
+				<div class='col1'>Anything else for us to know?</div>
+				<textarea row=20 cols=20 placeholder="send us a message"> </textarea>
+				<br />
+			</div>
+		`<input type="submit" name="submit">
+			<input type="reset" name="reset">
+		<br /><br />
+		</form>
+	</div>
+	</ul>
+</html>
